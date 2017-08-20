@@ -1,7 +1,7 @@
 [package]
 name = "random_derive"
 version = "0.1.0"
-authors = ["Charles Katzer <ckatzer@gmail.com>"]
+authors = ["Charles Katzer <cpkatzer@gmail.com>"]
 
 [dependencies]
 rand = "0.3"

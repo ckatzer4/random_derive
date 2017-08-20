@@ -1,7 +1,7 @@
 # random\_derive
 Procedurally defined macro for automatically deriving rand::Rand for structs and enums
 
-# `enum`s
+# `enums`
 Given an enum of multiple variants, this macro allows you to define the [`rand::Rand`](https://doc.rust-lang.org/rand/rand/trait.Rand.html) trait such that calling `rand::random()` will create an enum with a randomly selected variant.
 
 For example:
@@ -76,7 +76,7 @@ will print either:
 
 with roughly even odds between the three.
 
-# `struct`s
+# `structs`
 `rand::Rand` is implemented simpler for structs - for each field in the struct, `rand::random()` will be called, so it only works if the fields are primitives or if their types have already implemented `rand::Rand`.
 
 For a concrete example, the following struct:

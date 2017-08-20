@@ -1,5 +1,6 @@
 # random\_derive
 Procedurally defined macro for automatically deriving rand::Rand for structs and enums
+NOTE: Like many good ideas, I didn't realize this had already been done. Take a look at the rand\_derive crate for the official Rust Project Developers crate!
 
 # `enums`
 Given an enum of multiple variants, this macro allows you to define the [`rand::Rand`](https://doc.rust-lang.org/rand/rand/trait.Rand.html) trait such that calling `rand::random()` will create an enum with a randomly selected variant.

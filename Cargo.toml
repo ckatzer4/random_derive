@@ -1,0 +1,13 @@
+[package]
+name = "random_derive"
+version = "0.1.0"
+authors = ["Charles Katzer <ckatzer@gmail.com>"]
+
+[dependencies]
+rand = "0.3"
+syn = "0.11"
+quote = "0.3"
+
+[lib]
+name = "random_derive"
+proc-macro = true

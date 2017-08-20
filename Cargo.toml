@@ -2,6 +2,13 @@
 name = "random_derive"
 version = "0.1.0"
 authors = ["Charles Katzer <cpkatzer@gmail.com>"]
+description = "Procedurally defined macro for automatically deriving rand::Rand for structs and enums"
+documentation = "https://github.com/ckatzer4/random_derive"
+homepage = "https://github.com/ckatzer4/random_derive"
+repository = "https://github.com/ckatzer4/random_derive"
+readme = "README.md"
+keywords = ["random", "derive", "variant", "enum", "macro"]
+license = "MPL-2.0"
 
 [dependencies]
 rand = "0.3"
